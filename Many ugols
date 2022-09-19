@@ -1,0 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+namespace Многоугольники
+{
+    abstract class Shape
+    {
+        protected int x;
+        protected int y;
+        static protected int r;
+        static protected System.Drawing.Color Color;
+        public Shape()
+        {
+        }
+
+    }
+    class Circle:Shape
+    {
+        public Circle()
+        {
+
+        }
+    }
+    class Square:Shape
+    {
+        public Square()
+        {
+
+        }
+    }
+    class Triangle:Shape
+    {
+        public Triangle()
+        {
+
+        }
+    }
+}
